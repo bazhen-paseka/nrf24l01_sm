@@ -10,25 +10,25 @@
 #ifndef __NRF24L01_H
 #define __NRF24L01_H
 
-#ifdef USE_HAL_DRIVER
-#if defined STM32F1
-#include "stm32f1xx_hal.h"
-#elif defined STM32F2
-#include "stm32f2xx_hal.h"
-#elif defined STM32F3
-#include "stm32f3xx_hal.h"
-#elif defined STM32F4
-#include "stm32f4xx_hal.h"
-#elif defined STM32F7
-#include "stm32f7xx_hal.h"
-#endif
-#else
-#error You need to use HAL with this library
-#endif
+//#ifdef USE_HAL_DRIVER
+//#if defined STM32F1
+//#include "stm32f1xx_hal.h"
+//#elif defined STM32F2
+//#include "stm32f2xx_hal.h"
+//#elif defined STM32F3
+//#include "stm32f3xx_hal.h"
+//#elif defined STM32F4
+//#include "stm32f4xx_hal.h"
+//#elif defined STM32F7
+//#include "stm32f7xx_hal.h"
+//#endif
+//#else
+//#error You need to use HAL with this library
+//#endif
 
 #include <stdint.h>
 #include "spi.h"
-
+#include "main.h"
 /**
  * @defgroup NRF24L01P_Macros
  * @brief    Library defines
