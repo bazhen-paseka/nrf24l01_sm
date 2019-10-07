@@ -32,7 +32,7 @@
  * | OTHER DEALINGS IN THE SOFTWARE.
  * |----------------------------------------------------------------------
  */
-#include "nRF24L01.h"
+#include "nRF24L01_sm.h"
 
 /* Private functions */
 void NRF24L01_WriteBit(uint8_t reg, uint8_t bit, uint8_t value);
