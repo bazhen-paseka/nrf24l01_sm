@@ -29,6 +29,7 @@
 #include <stdint.h>
 #include "spi.h"
 #include "main.h"
+#include "nrf24l01_config.h"
 /**
  * @defgroup NRF24L01P_Macros
  * @brief    Library defines
